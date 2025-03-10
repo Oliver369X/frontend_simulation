@@ -14,7 +14,7 @@ const isDev = process.env.NODE_ENV === 'development';
 // Aseguramos que sea una URL completa
 export const API_URL = process.env.REACT_APP_API_URL?.startsWith('http') 
   ? process.env.REACT_APP_API_URL 
-  : 'http://localhost:8000';
+  : 'https://iot-building-simulator-1.onrender.com';
 
 export const ENDPOINTS = {
   buildings: `${API_URL}/buildings`,
