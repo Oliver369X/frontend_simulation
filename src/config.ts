@@ -24,7 +24,7 @@ export const ENDPOINTS = {
 // WebSocket URL usando variable de entorno
 export const WS_URL = process.env.REACT_APP_WS_URL?.startsWith('http') 
 ? process.env.REACT_APP_WS_URL 
-: 'ws://iot-building-simulator-1.onrender.com';
+: 'wss://iot-building-simulator-1.onrender.com';
 
 // Agregar console.log para debug
 console.log('Variables de entorno:', {
